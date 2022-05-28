@@ -54,7 +54,70 @@ while :
                 ## on other Arch Based Distributions. 
 		
 		yes)
-			## Here
+                        sudo pacman -Syyu
+                        sudo pacman -S alsa-utils
+                        sudo pacman -S amd-ucode
+                        sudo pacman -S arch-install-scripts
+                        sudo pacman -S archinstall
+                        sudo pacman -S b43-fwcutter
+                        sudo pacman -S base
+                        sudo pacman -S bind-tools
+                        sudo pacman -S brltty
+                        sudo pacman -S broadcom-wl
+                        sudo pacman -S btfs-progs
+                        sudo pacman -S clonezilla
+                        sudo pacman -S cloud-init
+                        sudo pacman -S darkhttpd
+                        sudo pacman -S ddrescue
+                        sudo pacman -S dhcpcd
+                        sudo pacman -S diffutils
+                        sudo pacman -S dialog 
+                        sudo pacman -S dmraid 
+                        sudo pacman -S dnsmasq
+                        sudo pacman -S diffutils
+                        sudo pacman -S dosfstools
+                        sudo pacman -S e2fsprogs
+                        sudo pacman -S edk2-shell
+                        sudo pacman -S efibootmgr
+                        sudo pacman -S espeakup
+                        sudo pacman -S ethtool
+                        sudo pacman -S exfatprogs
+                        sudo pacman -S f2fs-tools
+                        sudo pacman -S fatresize
+                        sudo pacman -S fsarchiver
+                        sudo pacman -S gnu-netcat
+                        sudo pacman -S gpart
+                        sudo pacman -S gpm 
+                        sudo pacman -S gptfdisk
+                        sudo pacman -S grml-zsh-config
+                        sudo pacman -S grub
+                        sudo pacman -S hdparm 
+                        sudo pacman -S intel-ucode
+                        sudo pacman -S ipw2100-fw
+                        sudo pacman -S ipw2200-fw
+                        sudo pacman -S irrsi
+                        sudo pacman -S iwd
+                        sudo pacman -S jfsutils
+                        sudo pacman -S less
+                        sudo pacman -S lftp
+                        sudo pacman -S libfibo2
+                        sudo pacman -S libusb-compat 
+                        sudo pacman -S linux 
+                        sudo pacman -S linux-atm
+                        sudo pacman -S linux-firmware
+                        sudo pacman -S linux-firmware-marvell
+                        sudo pacman -S livecd-sounds
+                        sudo pacman -S lsscsi
+                        sudo pacman -S lvm2
+                        sudo pacman -S lxdm
+                        sudo pacman -S lynx
+                        sudo pacman -S man-db 
+                        sudo pacman -S man-pages 
+                        sudo pacman -S mc
+                        sudo pacman -S mdadm
+                        sudo pacman -S memtest86+
+                        sudo pacman -S mkinitcpio
+                        sudo pacman -S mkinitcpio-archiso
 			;;
 
 
