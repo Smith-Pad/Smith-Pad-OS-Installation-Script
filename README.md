@@ -4,7 +4,10 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 # Requirements
 
-Later...
+* Arch Linux
+
+* Dialog 
+
 
 
 
