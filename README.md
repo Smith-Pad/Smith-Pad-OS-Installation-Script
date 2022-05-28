@@ -18,6 +18,10 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 sudo pacman -S dialog 
 ```
 
+```shell
+sudo pacman -S pv
+```
+
 # How to run the Installer
 
 Later...
