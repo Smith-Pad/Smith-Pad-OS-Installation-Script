@@ -10,6 +10,8 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 
 
+* Installing the required dependencies via Pacman Package Manager
+
 
 # How to run the Installer
 
