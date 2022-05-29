@@ -190,9 +190,6 @@ while :
                         sudo pacman -S --noconfirm nodejs
 
 
-                        ## Change to the Home directory before cloning the Smith-Pad-OS-KDE-Theme Repository 
-                        ## via Git
-                        cd $HOME
 
 
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
