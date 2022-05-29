@@ -181,6 +181,7 @@ while :
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
+                        sudo pacman -S --noconfirm electron
 
 
 
