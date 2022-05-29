@@ -16,7 +16,7 @@ function introduction() {
 
 function confirmation() {
         clear
-        echo """
+        echo """Smith
 
         ┌──┬─────────────────────────────────────┬──┐
         │  ├─────────────────────────────────────┤  │
@@ -107,7 +107,7 @@ while :
                         sudo pacman -S linux-firmware
                         sudo pacman -S linux-firmware-marvell
                         sudo pacman -S livecd-sounds
-                        sudo pacman -S lsscsi
+                        sudo pacman -S lsscsisui o
                         sudo pacman -S lvm2
                         sudo pacman -S lxdm
                         sudo pacman -S lynx
@@ -118,6 +118,62 @@ while :
                         sudo pacman -S memtest86+
                         sudo pacman -S mkinitcpio
                         sudo pacman -S mkinitcpio-archiso
+                        sudo pacman -S mkinitcpio-nfs-utils
+                        sudo pacman -S modemmanager
+                        sudo pacman -S mtools
+                        sudo pacman -S nano 
+                        sudo pacman -S nbd
+                        sudo pacman -S ndisc6
+                        sudo pacman -S nfs-utils
+                        sudo pacman -S nilfs-utils
+                        sudo pacman -S nmap
+                        sudo pacman -S ntfs-3g
+                        sudo pacman -S nvme-cli
+                        sudo pacman -S openconnect
+                        sudo pacman -S openssh
+                        sudo pacman -S openvpn
+                        sudo pacman -S partclone 
+                        sudo pacman -S pcsclite
+                        sudo pacman -S ppp
+                        sudo pacman -S pptpclient
+                        sudo pacman -S pv 
+                        sudo pacman -S qemu-guest-agent
+                        sudo pacman -S refind
+                        sudo pacman -S reflector
+                        sudo pacman -S reiserfsprogs
+                        sudo pacman -S rp-pppoe
+                        sudo pacman -S rsync
+                        sudo pacman -S rxvt-unicode-terminfo
+                        sudo pacman -S screen 
+                        sudo pacman -S sdparm 
+                        sudo pacman -S sg3_utils
+                        sudo pacman -S smartmontools
+                        sudo pacman -S sof-firmware
+                        sudo pacman -S squashfs-tools
+                        sudo pacman -S sudo
+                        sudo pacman -S syslinux
+                        sudo pacman -S tcpdump 
+                        sudo pacman -S systemd-resolvconf
+                        sudo pacman -S terminus-font
+                        sudo pacman -S testdisk
+                        sudo pacman -S tmux
+                        sudo pacman -S tpm2-tss 
+                        sudo pacman -S udftools
+                        sudo pacman -S usb_modeswitch
+                        sudo pacman -S usbmuxd
+                        sudo pacman -S usbutils
+                        sudo pacman -S usb_modeswitch
+                        sudo pacman -S usbmuxd
+                        sudo pacman -S usbutils
+                        sudo pacman -S vim
+                        sudo pacman -S vpnc
+                        sudo pacman -S wireless-regdb
+                        sudo pacman -S wireless_tools
+                        sudo pacman -S wpa_supplicant
+                        sudo pacman -S wvdial
+                        sudo pacman -S xfsprogs
+                        sudo pacman -S x12tpd
+                        sudo pacman -S zsh
 			;;
 
 
