@@ -24,4 +24,7 @@ sudo pacman -S git
 
 # How to run the Installer
 
-Later...
+```shell
+sh install.sh
+
+```
