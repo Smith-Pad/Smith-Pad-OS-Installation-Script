@@ -109,7 +109,6 @@ while :
                         sudo pacman -S livecd-sounds
                         sudo pacman -S lsscsisui o
                         sudo pacman -S lvm2
-                        sudo pacman -S lxdm
                         sudo pacman -S lynx
                         sudo pacman -S man-db 
                         sudo pacman -S man-pages 
