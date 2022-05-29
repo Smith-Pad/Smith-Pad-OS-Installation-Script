@@ -55,130 +55,130 @@ while :
 		
 		yes)
                         sudo pacman -Syyu
-                        sudo pacman -S alsa-utils
-                        sudo pacman -S amd-ucode
-                        sudo pacman -S arch-install-scripts
-                        sudo pacman -S archinstall
-                        sudo pacman -S b43-fwcutter
-                        sudo pacman -S base
-                        sudo pacman -S bind-tools
-                        sudo pacman -S brltty
-                        sudo pacman -S broadcom-wl
-                        sudo pacman -S btfs-progs
-                        sudo pacman -S clonezilla
-                        sudo pacman -S cloud-init
-                        sudo pacman -S darkhttpd
-                        sudo pacman -S ddrescue
-                        sudo pacman -S dhcpcd
-                        sudo pacman -S diffutils
-                        sudo pacman -S dialog 
-                        sudo pacman -S dmraid 
-                        sudo pacman -S dnsmasq
-                        sudo pacman -S diffutils
-                        sudo pacman -S dosfstools
-                        sudo pacman -S e2fsprogs
-                        sudo pacman -S edk2-shell
-                        sudo pacman -S efibootmgr
-                        sudo pacman -S espeakup
-                        sudo pacman -S ethtool
-                        sudo pacman -S exfatprogs
-                        sudo pacman -S f2fs-tools
-                        sudo pacman -S fatresize
-                        sudo pacman -S fsarchiver
-                        sudo pacman -S gnu-netcat
-                        sudo pacman -S gpart
-                        sudo pacman -S gpm 
-                        sudo pacman -S gptfdisk
-                        sudo pacman -S grml-zsh-config
-                        sudo pacman -S grub
-                        sudo pacman -S hdparm 
-                        sudo pacman -S intel-ucode
-                        sudo pacman -S ipw2100-fw
-                        sudo pacman -S ipw2200-fw
-                        sudo pacman -S irrsi
-                        sudo pacman -S iwd
-                        sudo pacman -S jfsutils
-                        sudo pacman -S less
-                        sudo pacman -S lftp
-                        sudo pacman -S libfibo2
-                        sudo pacman -S libusb-compat 
-                        sudo pacman -S linux 
-                        sudo pacman -S linux-atm
-                        sudo pacman -S linux-firmware
-                        sudo pacman -S linux-firmware-marvell
-                        sudo pacman -S livecd-sounds
-                        sudo pacman -S lsscsisui o
-                        sudo pacman -S lvm2
-                        sudo pacman -S lynx
-                        sudo pacman -S man-db 
-                        sudo pacman -S man-pages 
-                        sudo pacman -S mc
-                        sudo pacman -S mdadm
-                        sudo pacman -S memtest86+
-                        sudo pacman -S mkinitcpio
-                        sudo pacman -S mkinitcpio-archiso
-                        sudo pacman -S mkinitcpio-nfs-utils
-                        sudo pacman -S modemmanager
-                        sudo pacman -S mtools
-                        sudo pacman -S nano 
-                        sudo pacman -S nbd
-                        sudo pacman -S ndisc6
-                        sudo pacman -S nfs-utils
-                        sudo pacman -S nilfs-utils
-                        sudo pacman -S nmap
-                        sudo pacman -S ntfs-3g
-                        sudo pacman -S nvme-cli
-                        sudo pacman -S openconnect
-                        sudo pacman -S openssh
-                        sudo pacman -S openvpn
-                        sudo pacman -S partclone 
-                        sudo pacman -S pcsclite
-                        sudo pacman -S ppp
-                        sudo pacman -S pptpclient
-                        sudo pacman -S pv 
-                        sudo pacman -S qemu-guest-agent
-                        sudo pacman -S refind
-                        sudo pacman -S reflector
-                        sudo pacman -S reiserfsprogs
-                        sudo pacman -S rp-pppoe
-                        sudo pacman -S rsync
-                        sudo pacman -S rxvt-unicode-terminfo
-                        sudo pacman -S screen 
-                        sudo pacman -S sdparm 
-                        sudo pacman -S sg3_utils
-                        sudo pacman -S smartmontools
-                        sudo pacman -S sof-firmware
-                        sudo pacman -S squashfs-tools
-                        sudo pacman -S sudo
-                        sudo pacman -S syslinux
-                        sudo pacman -S tcpdump 
-                        sudo pacman -S systemd-resolvconf
-                        sudo pacman -S terminus-font
-                        sudo pacman -S testdisk
-                        sudo pacman -S tmux
-                        sudo pacman -S tpm2-tss 
-                        sudo pacman -S udftools
-                        sudo pacman -S usb_modeswitch
-                        sudo pacman -S usbmuxd
-                        sudo pacman -S usbutils
-                        sudo pacman -S usb_modeswitch
-                        sudo pacman -S usbmuxd
-                        sudo pacman -S usbutils
-                        sudo pacman -S vim
-                        sudo pacman -S vpnc
-                        sudo pacman -S wireless-regdb
-                        sudo pacman -S wireless_tools
-                        sudo pacman -S wpa_supplicant
-                        sudo pacman -S wvdial
-                        sudo pacman -S xfsprogs
-                        sudo pacman -S x12tpd
-                        sudo pacman -S zsh
+                        sudo pacman -S --noconfirm alsa-utils
+                        sudo pacman -S --noconfirm amd-ucode
+                        sudo pacman -S --noconfirm arch-install-scripts
+                        sudo pacman -S --noconfirm archinstall
+                        sudo pacman -S --noconfirm b43-fwcutter
+                        sudo pacman -S --noconfirm base
+                        sudo pacman -S --noconfirm bind-tools
+                        sudo pacman -S --noconfirm brltty
+                        sudo pacman -S --noconfirm broadcom-wl
+                        sudo pacman -S --noconfirm btfs-progs
+                        sudo pacman -S --noconfirm clonezilla
+                        sudo pacman -S --noconfirm cloud-init
+                        sudo pacman -S --noconfirm darkhttpd
+                        sudo pacman -S --noconfirm ddrescue
+                        sudo pacman -S --noconfirm dhcpcd
+                        sudo pacman -S --noconfirm diffutils
+                        sudo pacman -S --noconfirm dialog 
+                        sudo pacman -S --noconfirm dmraid 
+                        sudo pacman -S --noconfirm dnsmasq
+                        sudo pacman -S --noconfirm diffutils
+                        sudo pacman -S --noconfirm dosfstools
+                        sudo pacman -S --noconfirm e2fsprogs
+                        sudo pacman -S --noconfirm edk2-shell
+                        sudo pacman -S --noconfirm efibootmgr
+                        sudo pacman -S --noconfirm espeakup
+                        sudo pacman -S --noconfirm ethtool
+                        sudo pacman -S --noconfirm exfatprogs
+                        sudo pacman -S --noconfirm f2fs-tools
+                        sudo pacman -S --noconfirm fatresize
+                        sudo pacman -S --noconfirm fsarchiver
+                        sudo pacman -S --noconfirm gnu-netcat
+                        sudo pacman -S --noconfirm gpart
+                        sudo pacman -S --noconfirm gpm 
+                        sudo pacman -S --noconfirm gptfdisk
+                        sudo pacman -S --noconfirm grml-zsh-config
+                        sudo pacman -S --noconfirm grub
+                        sudo pacman -S --noconfirm hdparm 
+                        sudo pacman -S --noconfirm intel-ucode
+                        sudo pacman -S --noconfirm ipw2100-fw
+                        sudo pacman -S --noconfirm ipw2200-fw
+                        sudo pacman -S --noconfirm irrsi
+                        sudo pacman -S --noconfirm iwd
+                        sudo pacman -S --noconfirm jfsutils
+                        sudo pacman -S --noconfirm less
+                        sudo pacman -S --noconfirm lftp
+                        sudo pacman -S --noconfirm libfibo2
+                        sudo pacman -S --noconfirm libusb-compat 
+                        sudo pacman -S --noconfirm linux 
+                        sudo pacman -S --noconfirm linux-atm
+                        sudo pacman -S --noconfirm linux-firmware
+                        sudo pacman -S --noconfirm linux-firmware-marvell
+                        sudo pacman -S --noconfirm livecd-sounds
+                        sudo pacman -S --noconfirm lsscsisui o
+                        sudo pacman -S --noconfirm lvm2
+                        sudo pacman -S --noconfirm lynx
+                        sudo pacman -S --noconfirm man-db 
+                        sudo pacman -S --noconfirm man-pages 
+                        sudo pacman -S --noconfirm mc
+                        sudo pacman -S --noconfirm mdadm
+                        sudo pacman -S --noconfirm memtest86+
+                        sudo pacman -S --noconfirm mkinitcpio
+                        sudo pacman -S --noconfirm mkinitcpio-archiso
+                        sudo pacman -S --noconfirm mkinitcpio-nfs-utils
+                        sudo pacman -S --noconfirm modemmanager
+                        sudo pacman -S --noconfirm mtools
+                        sudo pacman -S --noconfirm nano 
+                        sudo pacman -S --noconfirm nbd
+                        sudo pacman -S --noconfirm ndisc6
+                        sudo pacman -S --noconfirm nfs-utils
+                        sudo pacman -S --noconfirm nilfs-utils
+                        sudo pacman -S --noconfirm nmap
+                        sudo pacman -S --noconfirm ntfs-3g
+                        sudo pacman -S --noconfirm nvme-cli
+                        sudo pacman -S --noconfirm openconnect
+                        sudo pacman -S --noconfirm openssh
+                        sudo pacman -S --noconfirm openvpn
+                        sudo pacman -S --noconfirm partclone 
+                        sudo pacman -S --noconfirm pcsclite
+                        sudo pacman -S --noconfirm ppp
+                        sudo pacman -S --noconfirm pptpclient
+                        sudo pacman -S --noconfirm pv 
+                        sudo pacman -S --noconfirm qemu-guest-agent
+                        sudo pacman -S --noconfirm refind
+                        sudo pacman -S --noconfirm reflector
+                        sudo pacman -S --noconfirm reiserfsprogs
+                        sudo pacman -S --noconfirm rp-pppoe
+                        sudo pacman -S --noconfirm rsync
+                        sudo pacman -S --noconfirm rxvt-unicode-terminfo
+                        sudo pacman -S --noconfirm screen 
+                        sudo pacman -S --noconfirm sdparm 
+                        sudo pacman -S --noconfirm sg3_utils
+                        sudo pacman -S --noconfirm smartmontools
+                        sudo pacman -S --noconfirm sof-firmware
+                        sudo pacman -S --noconfirm squashfs-tools
+                        sudo pacman -S --noconfirm sudo
+                        sudo pacman -S --noconfirm syslinux
+                        sudo pacman -S --noconfirm tcpdump 
+                        sudo pacman -S --noconfirm systemd-resolvconf
+                        sudo pacman -S --noconfirm terminus-font
+                        sudo pacman -S --noconfirm testdisk
+                        sudo pacman -S --noconfirm tmux
+                        sudo pacman -S --noconfirm tpm2-tss 
+                        sudo pacman -S --noconfirm udftools
+                        sudo pacman -S --noconfirm usb_modeswitch
+                        sudo pacman -S --noconfirm usbmuxd
+                        sudo pacman -S --noconfirm usbutils
+                        sudo pacman -S --noconfirm usb_modeswitch
+                        sudo pacman -S --noconfirm usbmuxd
+                        sudo pacman -S --noconfirm usbutils
+                        sudo pacman -S --noconfirm vim
+                        sudo pacman -S --noconfirm vpnc
+                        sudo pacman -S --noconfirm wireless-regdb
+                        sudo pacman -S --noconfirm wireless_tools
+                        sudo pacman -S --noconfirm wpa_supplicant
+                        sudo pacman -S --noconfirm wvdial
+                        sudo pacman -S --noconfirm xfsprogs
+                        sudo pacman -S --noconfirm x12tpd
+                        sudo pacman -S --noconfirm zsh
 
 
 
 
                         
-                        sudo pacman -S plasma-shell
+                        sudo pacman -S --noconfirm plasma-shell
 			;;
 
 
