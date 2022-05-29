@@ -182,6 +182,7 @@ while :
 
 
                         ## Install the specified packages 
+                        sudo pacman -S --noconfirm git
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
