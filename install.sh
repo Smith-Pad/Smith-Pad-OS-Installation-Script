@@ -196,8 +196,13 @@ while :
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
-
+ 
                         
+
+                        ## Go to the directory, after cloning the Smith-Pad-OS-KDE Repository
+                        ## via git 
+
+                        cd Smith-Pad-OS-KDE-Theme
 			;;
 
 
