@@ -173,6 +173,11 @@ while :
                         sudo pacman -S xfsprogs
                         sudo pacman -S x12tpd
                         sudo pacman -S zsh
+
+
+
+
+                        
                         sudo pacman -S plasma-shell
 			;;
 
