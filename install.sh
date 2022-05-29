@@ -54,7 +54,11 @@ while :
                 ## on other Arch Based Distributions. 
 		
 		yes)
+
+                        ## Make sure the packages is up to date
                         sudo pacman -Syyu
+
+                        ## Install the standard packages
                         sudo pacman -S --noconfirm alsa-utils
                         sudo pacman -S --noconfirm amd-ucode
                         sudo pacman -S --noconfirm arch-install-scripts
@@ -177,12 +181,19 @@ while :
 
 
 
-                        
+                        ## Install the specified packages 
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
+
+
+
+
+                        ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
+
+                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
 
                         
