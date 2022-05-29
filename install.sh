@@ -178,7 +178,11 @@ while :
 
 
                         
-                        sudo pacman -S --noconfirm plasma
+                        sudo pacman -S --noconfirm plasmashell
+
+
+
+
 			;;
 
 
