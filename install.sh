@@ -206,8 +206,8 @@ while :
 
 
 
-                        ## Copy the contents to usr/share/KDE/themes/
-                        cp -R * /usr/share/KDE/themes/Smith-Pad-OS-KDE-Theme
+                        ## Copy the contents to usr/share/plasma/desktoptheme/Smith-Pad-OS-KDE-Theme 
+                        cp -R * /usr/share/plasma/desktoptheme/Smith-Pad-OS-KDE-Theme
 			;;
 
 
