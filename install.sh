@@ -216,6 +216,11 @@ while :
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs/
 
 
+                        ## Update the Smith-Pad-OS-Configs Repository if it 
+                        ## is already cloned.
+                        git pull 
+
+
                         ## Change Directory to Smith-Pad-OS-Configs Repository
                         cd Smith-Pad-OS-Configs 
 
