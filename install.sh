@@ -47,7 +47,7 @@ while :
 	do 
 	read CHOICE
 
-	case $CHOICE in 
+	case $CHOICE in  
 
 		## After the user chooses yes, then it will install the 
 		## dependencies and components for running Smith-Pad-OS
@@ -186,6 +186,7 @@ while :
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
+                        sudo pacma -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
 
