@@ -197,7 +197,7 @@ while :
                         ## before cloning the Smith-Pad-KDE-Theme repository 
                         ## via Git. 
 
-                        cd  ../usr/share/
+                        cd  ../usr/share/plasma/desktoptheme/
 
 
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
