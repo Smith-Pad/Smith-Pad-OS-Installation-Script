@@ -228,7 +228,7 @@ while :
 
                         ## Now install the configs to xdg 
 
-                        cp -R openbox ../../    ## Install openbox configuration
+                        cp -R openbox /etc/xdg/    ## Install openbox configuration
 			;;
 
 
