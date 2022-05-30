@@ -186,9 +186,9 @@ while :
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
-                        sudo pacma -S --noconfirm konsole
+                        sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
-                        sudo pacman -S --noconfirm nodejs
+                        sudo pacman -S --noconfirm nodejs       
 
 
 
@@ -205,12 +205,6 @@ while :
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
  
-                        
-
-                        ## Go to the directory, after cloning the Smith-Pad-OS-KDE Repository
-                        ## via git 
-
-                        cd Smith-Pad-OS-KDE-Theme
 			;;
 
 
