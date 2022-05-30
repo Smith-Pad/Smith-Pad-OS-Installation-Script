@@ -192,6 +192,13 @@ while :
 
 
 
+                        ## Change directory to  ../usr/share/plasma/desktoptheme/
+                        ## before cloning the Smith-Pad-KDE-Theme repository 
+                        ## via Git. 
+
+                        cd  ../usr/share/
+
+
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
@@ -203,11 +210,6 @@ while :
                         ## via git 
 
                         cd Smith-Pad-OS-KDE-Theme
-
-
-
-                        ## Copy the contents to usr/share/plasma/desktoptheme/Smith-Pad-OS-KDE-Theme 
-                        cp -R * /usr/share/plasma/desktoptheme/Smith-Pad-OS-KDE-Theme
 			;;
 
 
