@@ -211,14 +211,14 @@ while :
                         cd ../../../../etc/xdg/
 
 
+                        ## Prevent conflicts before cloning the Smith-Pad-OS-Configs 
+                        ## Repository
+                        rm -rf Smith-Pad-OS-Configs
+
                         ## Clone the Smith-Pad-OS-Configs Repository from Git
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs/
 
-
-                        ## Update the Smith-Pad-OS-Configs Repository if it 
-                        ## is already cloned.
-                        git pull 
 
 
                         ## Change Directory to Smith-Pad-OS-Configs Repository
