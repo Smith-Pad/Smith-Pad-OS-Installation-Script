@@ -237,6 +237,14 @@ while :
                         ## Now install the configs to xdg 
 
                         cp -R openbox /etc/xdg/    ## Install openbox configuration
+
+
+                        ## Clone the Smith-Pad Web Interface Repository via Git
+                        ## to etc/xdg/
+
+                        git clone https://github.com/Smith-Pad/Smith-Pad
+
+
 			;;
 
 
