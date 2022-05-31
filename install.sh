@@ -240,8 +240,16 @@ while :
                         cp -R openbox /etc/xdg/    ## Install openbox configuration
 
 
+                        ## Change directory to /etc/xdg/openbox
+                        cd /etc/xdg/openbox
+
+                        ## Prevent any conflicts before cloning the Smith-Pad-OS-Shell 
+                        ## Repository via Git
+                        rm -rf  Smith-Pad-OS-Shell
+
+
                         ## Clone the Smith-Pad-OS-Shell Repository via Git
-                        ## to etc/xdg/
+                        ## to etc/xdg/openbox
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 
