@@ -245,6 +245,26 @@ while :
                         ## Now install the configs to xdg 
 
                         cp -R openbox /etc/xdg/    ## Install openbox configuration
+
+
+
+                        ## Enable SDDM using systemctl 
+                        sudo systemctl enable sddm
+
+
+
+                        ## Inform the user with steps to manually reboot system
+                        echo """        
+                        ##########################################################
+                        #               Steps to reboot your system
+                        #               (CHROOT ENVIRONMENT)
+                        #
+                        #
+                        #       1) exit | Description: Exit the chroot environment
+                        #       2) reboot | Description: Reboots the system
+                        ##########################################################
+
+                        """
 			;;
 
 
