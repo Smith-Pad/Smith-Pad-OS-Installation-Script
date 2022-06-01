@@ -244,39 +244,6 @@ while :
                         ## Now install the configs to xdg 
 
                         cp -R openbox /etc/xdg/    ## Install openbox configuration
-
-
-                        ## Change directory to /etc/xdg/openbox
-                        cd /etc/xdg/openbox
-
-                        ## Prevent any conflicts before cloning the Smith-Pad-OS-Shell 
-                        ## Repository via Git
-                        rm -rf  Smith-Pad-OS-Shell
-
-
-                        ## Clone the Smith-Pad-OS-Shell Repository via Git
-                        ## to etc/xdg/openbox
-
-                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
-
-                        
-                        ## After cloning the repository, we must move the openbox configuration, 
-                        ## which includes the electron scripts and Smith-Pad-OS Web-Interface 
-                        ## files, to /etc/xdg/openbox. However, we must first change the 
-                        ## directory to /etc/xdg/openbox/Smith-Pad-OS-Shell.
-
-                        cd Smith-Pad-OS-Shell
-
-
-                        ## After changing the directory to Smith-Pad-OS-Shell, then 
-                        ## we are going to move the openbox configuration to 
-                        ## /etc/xdg/openbox that includes the electron scripts, and
-                        ## the Smith-Pad Web Interface files to run everytime the openbox
-                        ## starts running. 
-
-                        mv -r * ../
-
-
 			;;
 
 
