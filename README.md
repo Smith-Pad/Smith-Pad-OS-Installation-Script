@@ -10,6 +10,8 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 * git
 
+* yay
+
 
 
 ##  Installing the required dependencies via Pacman Package Manager
@@ -21,6 +23,21 @@ sudo pacman -S dialog
 ```shell
 sudo pacman -S git 
 ```
+
+
+```shell
+## Step 1
+git clone https://aur.archlinux.org/yay-bin
+
+## Step 2
+cd yay-bin
+
+
+## Step 3
+makepkg -si
+```
+
+
 
 # How to run the Installer
 
