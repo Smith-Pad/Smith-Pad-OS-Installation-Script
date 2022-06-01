@@ -274,7 +274,7 @@ while :
                         ## the Smith-Pad Web Interface files to run everytime the openbox
                         ## starts running. 
 
-                        mv * ../
+                        mv -r * ../
 
 
 			;;
