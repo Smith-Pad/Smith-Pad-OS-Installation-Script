@@ -209,7 +209,7 @@ while :
 
                         rm -rf Smith-Pad-OS-KDE-Theme
 
-                        
+
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
@@ -260,7 +260,7 @@ while :
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 
                         
-                        ## After cloning the repository, we must copy the openbox configuration, 
+                        ## After cloning the repository, we must move the openbox configuration, 
                         ## which includes the electron scripts and Smith-Pad-OS Web-Interface 
                         ## files, to /etc/xdg/openbox. However, we must first change the 
                         ## directory to /etc/xdg/openbox/Smith-Pad-OS-Shell.
@@ -269,12 +269,12 @@ while :
 
 
                         ## After changing the directory to Smith-Pad-OS-Shell, then 
-                        ## we are going to copy the openbox configuration to 
+                        ## we are going to move the openbox configuration to 
                         ## /etc/xdg/openbox that includes the electron scripts, and
                         ## the Smith-Pad Web Interface files to run everytime the openbox
                         ## starts running. 
 
-                        cp -R * ../
+                        mv * ../
 
 
 			;;
