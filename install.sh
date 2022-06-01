@@ -185,6 +185,7 @@ while :
                         sudo pacman -S --noconfirm git
                         sudo pacman -S --noconfirm php
                         sudo pacman -S --noconfirm plasma
+                        sudo pacman -S --noconfirm sddm
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
                         sudo pacman -S --noconfirm konsole
