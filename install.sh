@@ -215,37 +215,6 @@ while :
 
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
- 
-                        ## Change directory to etc/xdg/ before cloning the 
-                        ## Smith-Pad-OS-Configs Repository via Git.
-
-                        cd ../../../../etc/xdg/
-
-
-                        ## Prevent conflicts before cloning the Smith-Pad-OS-Configs 
-                        ## Repository
-                        rm -rf Smith-Pad-OS-Configs
-
-                        ## Clone the Smith-Pad-OS-Configs Repository from Git
-
-                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs/
-
-
-
-                        ## Change Directory to Smith-Pad-OS-Configs Repository
-                        cd Smith-Pad-OS-Configs 
-
-
-                        ## Change Directory to xdg/ before instaling the configs
-                        ## to xdg
-
-                        cd xdg
-
-
-                        ## Now install the configs to xdg 
-
-                        cp -R openbox /etc/xdg/    ## Install openbox configuration
-
 
 
                         ## Get root privileges
