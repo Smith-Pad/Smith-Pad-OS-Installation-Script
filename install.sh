@@ -194,9 +194,6 @@ while :
 
 
 
-                        ## Web Browsers
-                        yay -S --noconfirm ungoogled-chromium
-
 
                         ## Change directory to  ../usr/share/plasma/look-and-feel/
                         ## before cloning the Smith-Pad-KDE-Theme repository 
