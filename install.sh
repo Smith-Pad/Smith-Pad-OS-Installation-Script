@@ -16,7 +16,7 @@ function introduction() {
 
 function confirmation() {
         clear
-        echo """Smith
+        echo """
 
         ┌──┬─────────────────────────────────────┬──┐
         │  ├─────────────────────────────────────┤  │
@@ -49,16 +49,23 @@ while :
 
 	case $CHOICE in  
 
+		#########################################################
 		## After the user chooses yes, then it will install the 
 		## dependencies and components for running Smith-Pad-OS
                 ## on other Arch Based Distributions. 
+		#########################################################
+
 		
 		yes)
 
                         ## Make sure the packages is up to date
                         sudo pacman -Syyu
 
-                        ## Install the standard packages
+                        #########################################################
+			#	Install the standard packages
+			#
+			#########################################################
+
                         sudo pacman -S --noconfirm alsa-utils
                         sudo pacman -S --noconfirm amd-ucode
                         sudo pacman -S --noconfirm arch-install-scripts
@@ -179,9 +186,12 @@ while :
                         sudo pacman -S --noconfirm zsh
 
 
+                        #########################################################
+			#	Install the specified packages
+			#
+			#########################################################
 
 
-                        ## Install the specified packages 
                         sudo pacman -S --noconfirm git
                         sudo pacman -S --noconfirm php
                         sudo pacman -S --noconfirm plasma
@@ -194,28 +204,36 @@ while :
 
 
 
-
+			###########################################################
                         ## Change directory to  ../usr/share/plasma/look-and-feel/
                         ## before cloning the Smith-Pad-KDE-Theme repository 
                         ## via Git. 
+			##########################################################
 
+			
                         cd  ../usr/share/plasma/look-and-feel/
 
-
+			#######################################################################
                         ## Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
                         ## via Git.
+			#######################################################################
 
+			
                         rm -rf Smith-Pad-OS-KDE-Theme
 
-
+			#########################################################
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
+			#########################################################
 
+			
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
 
-
+			###########################################################
                         ## Get root privileges
+			###########################################################
 
+			
                         echo """
                         ## sudoers file.
                         ##
@@ -309,12 +327,20 @@ while :
                         """ >> /etc/sudoers
 
 
+
+			################################################
                         ## Enable SDDM using systemctl 
+			################################################
                         sudo systemctl enable sddm
 
 
 
+
+			########################################################
                         ## Inform the user with steps to manually reboot system
+                        ########################################################
+
+                        
                         echo """        
                         ##########################################################
                         #               Steps to reboot your system
@@ -328,12 +354,12 @@ while :
                         """
 			;;
 
-
+		###########################################################
 		## After the user chooses no, then it will not install the 
 		## dependencies and components for running Smith-Pad-OS
                 ## on other Arch Based Distributions. The program 
                 ## will quit. 
-
+		############################################################
 		
 		no)
 			exit
