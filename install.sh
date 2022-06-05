@@ -232,6 +232,40 @@ while :
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
 
+
+
+                        ###########################################################
+                        ## Then change the directory to /etc/xdg before cloning the 
+                        ## Smith-Pad-OS-Configs-Repository
+                        ###########################################################
+
+
+                        cd /etc/xdg
+
+
+
+                        ###########################################################
+                        ## Then clone the Smith-Pad-OS-Configs Repository
+                        ##
+                        ###########################################################
+
+                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs-Repository 
+
+
+                        ###########################################################
+                        ## Then change the directory to Smith-Pad-OS-Configs
+                        ###########################################################
+
+                        cd Smith-Pad-OS-Configs
+
+
+                        ###########################################################
+                        ## Then run the configure.sh script.
+                        ###########################################################
+                        sh configure.sh
+
+
+
 			###########################################################
                         ## Get root privileges
 			###########################################################
