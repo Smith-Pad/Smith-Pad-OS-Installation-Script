@@ -214,7 +214,7 @@ while :
 			##########################################################
 
 			
-                        cd  ../usr/share/plasma/look-and-feel/
+                        cd /usr/share/plasma/look-and-feel/
 
 			#######################################################################
                         ## Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
