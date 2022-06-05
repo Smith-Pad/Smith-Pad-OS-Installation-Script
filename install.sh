@@ -249,7 +249,7 @@ while :
                         ##
                         ###########################################################
 
-                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs-Repository 
+                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs
 
 
                         ###########################################################
