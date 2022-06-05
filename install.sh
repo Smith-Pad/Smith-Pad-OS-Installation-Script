@@ -243,6 +243,12 @@ while :
                         cd /etc/xdg
 
 
+                        ###########################################################
+                        ## Prevent any conflicts when cloning the 
+                        ## Smith-Pad-OS-Configs Repository
+                        ###########################################################
+                        
+                        rm -rf Smith-Pad-OS-Configs
 
                         ###########################################################
                         ## Then clone the Smith-Pad-OS-Configs Repository
