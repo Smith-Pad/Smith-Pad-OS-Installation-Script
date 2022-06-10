@@ -232,51 +232,6 @@ while :
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
 
 
-
-
-                        ###########################################################
-                        ## Then change the directory to /etc/xdg before cloning the 
-                        ## Smith-Pad-OS-Configs-Repository
-                        ###########################################################
-
-
-                        cd /etc/xdg
-
-
-                        ###########################################################
-                        ## Prevent any conflicts when cloning the 
-                        ## Smith-Pad-OS-Configs Repository
-                        ###########################################################
-                        
-                        rm -rf Smith-Pad-OS-Configs
-
-                        ###########################################################
-                        ## Then clone the Smith-Pad-OS-Configs Repository
-                        ##
-                        ###########################################################
-
-                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs
-
-
-                        ###########################################################
-                        ## Then change the directory to Smith-Pad-OS-Configs
-                        ###########################################################
-
-                        cd Smith-Pad-OS-Configs
-
-
-                        ###########################################################
-                        ## Then run the configure.sh script.
-                        ###########################################################
-                        sh configure.sh
-
-
-                        ##########################################################
-                        ## Then run this script to give all root permissions
-                        ##########################################################
-                        sh give-root.sh
-
-
 			################################################
                         ## Enable SDDM using systemctl 
 			################################################
