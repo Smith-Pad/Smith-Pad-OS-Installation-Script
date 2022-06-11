@@ -59,7 +59,7 @@ while :
 		yes)
 
 			#########################################################
-                        ## Make sure the packages is up to date
+                        ## 	Make sure the packages is up to date
                         #########################################################
                         
                         sudo pacman -Syyu
@@ -246,10 +246,10 @@ while :
 
 
 
-			#######################################################################
-                        ## Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
-                        ## via Git.
-			#######################################################################
+			############################################################################
+                        ## 	Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
+                        ## 	via Git.
+			############################################################################
 
 			
                         rm -rf Smith-Pad-OS-KDE-Theme
@@ -258,9 +258,9 @@ while :
 
 
 
-			#########################################################
-                        ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
-			#########################################################
+			###############################################################
+                        ## 	Clone the Smith-Pad-OS-KDE-Theme Repository from Git
+			###############################################################
 
 			
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
@@ -270,16 +270,16 @@ while :
 
 
 			################################################
-                        ## Enable SDDM using systemctl 
+                        ## 	Enable SDDM using systemctl 
 			################################################
                         sudo systemctl enable sddm
 
 
 
 
-			########################################################
-                        ## Inform the user with steps to manually reboot system
-                        ########################################################
+			###############################################################
+                        ## 	Inform the user with steps to manually reboot system
+                        ###############################################################
 
                         
                         echo """        
@@ -295,12 +295,12 @@ while :
                         """
 			;;
 
-		###########################################################
-		## After the user chooses no, then it will not install the 
-		## dependencies and components for running Smith-Pad-OS
-                ## on other Arch Based Distributions. The program 
-                ## will quit. 
-		############################################################
+		###################################################################
+		## 	After the user chooses no, then it will not install the 
+		## 	dependencies and components for running Smith-Pad-OS
+                ## 	on other Arch Based Distributions. The program 
+                ## 	will quit. 
+		###################################################################
 		
 		no)
 			exit
