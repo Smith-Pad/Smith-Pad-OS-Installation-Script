@@ -64,6 +64,10 @@ while :
                         
                         sudo pacman -Syyu
 
+
+
+
+
                         #########################################################
 			#	Install the standard packages
 			#
@@ -203,7 +207,15 @@ while :
                         sudo pacman -S --noconfirm kwin
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
-                        sudo pacman -S --noconfirm nodejs       
+                        sudo pacman -S --noconfirm nodejs
+                        
+
+
+                        ##########################################################
+                        ## Install yay-bin via git 
+                  	#########################################################
+
+                  	git clone https://aur.archlinux.org/yay-bin
 
 
 
