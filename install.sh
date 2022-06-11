@@ -225,7 +225,7 @@ while :
 			## Install librewolf-bin via yay package manager
 			##########################################################
 
-                        yay -S librewolf-bin
+                        yay -S --noconfirm librewolf-bin 
 
 
 
