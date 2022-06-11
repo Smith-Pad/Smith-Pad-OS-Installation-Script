@@ -218,17 +218,7 @@ while :
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
-
-
-                        ##########################################################
-                        ## Install yay-bin via git 
-                  	#########################################################
-
-                  	git clone https://aur.archlinux.org/yay-bin
-			cd yay-bin
-			makepkg -si
-
-
+                        
 
 
 			##########################################################
