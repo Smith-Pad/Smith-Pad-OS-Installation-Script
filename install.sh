@@ -1,4 +1,4 @@
-############################################################
+#########################################################
 #       Installation Script
 #
 #
@@ -208,7 +208,7 @@ while :
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
-                        
+                        yay -S librewolf-bin
 
 
                         ##########################################################
