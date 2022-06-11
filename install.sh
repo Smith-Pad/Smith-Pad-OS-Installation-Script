@@ -208,7 +208,6 @@ while :
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
-                        yay -S librewolf-bin
 
 
                         ##########################################################
@@ -220,6 +219,12 @@ while :
 			makepkg -si
 
 
+
+			##########################################################
+			## Install librewolf-bin via yay package manager
+			##########################################################
+
+                        yay -S librewolf-bin
 
 			###########################################################
                         ## Change directory to  ../usr/share/plasma/look-and-feel/
