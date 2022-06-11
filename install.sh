@@ -68,6 +68,10 @@ while :
 
 
 
+
+
+
+
                         #########################################################
 			#	Install the standard packages
 			#
@@ -193,6 +197,12 @@ while :
                         sudo pacman -S --noconfirm zsh
 
 
+
+
+
+
+
+
                         #########################################################
 			#	Install the specified packages
 			#
@@ -220,11 +230,17 @@ while :
 
 
 
+
 			##########################################################
 			## Install librewolf-bin via yay package manager
 			##########################################################
 
                         yay -S librewolf-bin
+
+
+
+
+
 
 			###########################################################
                         ## Change directory to  ../usr/share/plasma/look-and-feel/
@@ -235,6 +251,11 @@ while :
 			
                         cd /usr/share/plasma/look-and-feel/
 
+
+
+
+
+
 			#######################################################################
                         ## Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
                         ## via Git.
@@ -243,12 +264,19 @@ while :
 			
                         rm -rf Smith-Pad-OS-KDE-Theme
 
+
+
+
+
 			#########################################################
                         ## Clone the Smith-Pad-OS-KDE-Theme Repository from Git
 			#########################################################
 
 			
                         git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
+
+
+
 
 
 			################################################
