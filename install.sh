@@ -234,14 +234,7 @@ while :
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
-                        
-
-
-			##########################################################
-			## Install librewolf-bin via yay package manager
-			##########################################################
-
-                        yay -S --noconfirm librewolf-bin 
+                        sudo pacman -S --noconfirm librewolf
 
 
 
