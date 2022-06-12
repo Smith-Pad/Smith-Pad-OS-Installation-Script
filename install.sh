@@ -235,7 +235,8 @@ while :
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
                         sudo pacman -S --noconfirm librewolf
-
+			sudo pacman -S --noconfirm google-chrome
+			sudo pacman -S --noconfirm ungoogled-chromium
 
 
 
