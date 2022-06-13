@@ -224,6 +224,7 @@ while :
 			#
 			#########################################################
 
+                        sudo pacman -S --noconfirm dolphin
 			sudo pacman -S --noconfirm fish
                         sudo pacman -S --noconfirm git
                         sudo pacman -S --noconfirm micro
