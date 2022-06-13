@@ -233,6 +233,7 @@ while :
                         sudo pacman -S --noconfirm sddm
                         sudo pacman -S --noconfirm openbox 
                         sudo pacman -S --noconfirm kwin
+                        sudo pacman -S --noconfirm kwordquiz
                         sudo pacman -S --noconfirm konsole
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
