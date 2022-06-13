@@ -224,7 +224,7 @@ while :
 			#
 			#########################################################
 
-
+			sudo pacman -S --noconfirm fish
                         sudo pacman -S --noconfirm git
                         sudo pacman -S --noconfirm php
                         sudo pacman -S --noconfirm plasma
