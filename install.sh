@@ -227,6 +227,7 @@ while :
                         sudo pacman -S --noconfirm dolphin
 			sudo pacman -S --noconfirm fish
                         sudo pacman -S --noconfirm git
+                        sudo pacman -S --noconfirm geogebra
                         sudo pacman -S --noconfirm micro
                         sudo pacman -S --noconfirm php
                         sudo pacman -S --noconfirm plasma
