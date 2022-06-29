@@ -213,8 +213,11 @@ while :
                         sudo pacman -S --noconfirm zsh
 
 
-
-
+                        #########################################################
+			#	Uninstall the specified packages
+			#	that is not needed
+			#########################################################			
+			sudo pacman -Rcns --noconfirm xfce4
 
 
 
@@ -233,7 +236,6 @@ while :
                         sudo pacman -S --noconfirm plasma
                         sudo pacman -S --noconfirm sddm
                         sudo pacman -S --noconfirm openbox 
-                        sudo pacman -S --noconfirm xfce4
                         sudo pacman -S --noconfirm kwin
                         sudo pacman -S --noconfirm kwordquiz
                         sudo pacman -S --noconfirm kbruch
