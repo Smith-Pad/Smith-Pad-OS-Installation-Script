@@ -218,7 +218,7 @@ while :
 			#	that is not needed
 			#########################################################			
 			sudo pacman -Rcns --noconfirm xfce4
-
+			sudo pacman -Rcns --noconfirm latte-dock
 
 
 
@@ -243,7 +243,6 @@ while :
                         sudo pacman -S --noconfirm electron
                         sudo pacman -S --noconfirm nodejs
                         sudo pacman -S --noconfirm librewolf
-                        sudo pacman -S --noconfirm latte-dock
 			sudo pacman -S --noconfirm google-chrome
 			sudo pacman -S --noconfirm ungoogled-chromium
 
