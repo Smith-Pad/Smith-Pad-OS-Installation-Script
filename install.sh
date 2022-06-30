@@ -14,7 +14,8 @@ function introduction() {
 }
 
 function requiredPackages() {
-	## Install packages required to run the Smith-Pad-OS-Installation-Script
+	## Install packages required to run the Smith-Pad-OS-Installation-Script 
+	## first before proceeding to the next steps
 	sudo pacman -S --no-confirm dialog
 }
 
