@@ -13,6 +13,10 @@ function introduction() {
 
 }
 
+function requiredPackages() {
+	## Install packages required to run the Smith-Pad-OS-Installation-Script
+	sudo pacman -S --no-confirm dialog
+}
 
 function confirmation() {
         clear
@@ -79,11 +83,6 @@ while :
                         #########################################################
                         
                         sudo pacman -Syyu
-
-
-
-
-
 
 
 
