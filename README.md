@@ -77,3 +77,47 @@ cd Smith-Pad-OS-Installation-Script
 ## Step 9
 sh install.sh
 ```
+
+
+
+# `sudo su` `method`
+
+```shell
+## Allow the ability access root super-user mode
+sudo su
+```
+
+
+
+```shell
+## Type this command cd to go back to the root's default directory
+cd
+```
+
+
+
+```shell
+## Type this command to clone the Smith-Pad-OS-Installation-Script
+## Repository
+
+
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installation-Script
+```
+
+
+
+```shell
+## Type this command to go to the Smith-Pad-OS-Installation-Script that
+## you just cloned (from the previous step)
+
+
+cd Smith-Pad-OS-Installation-Script
+```
+
+
+
+```shell
+## Type this command to run the Smith-Pad-OS-Installation-Script 
+
+sh install.sh
+```
