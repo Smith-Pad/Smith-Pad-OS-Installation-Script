@@ -1,6 +1,6 @@
 # Smith-Pad-OS-Installation-Script
-This repository is used to install Smith-Pad-OS components and dependencies on various Arch Linux-based distributions.
 
+This repository is used to install Smith-Pad-OS components and dependencies on various Arch Linux-based distributions.
 
 # Requirements
 
@@ -12,45 +12,30 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 * yay
 
+## Installing the required dependencies via Pacman Package Manager
 
-
-##  Installing the required dependencies via Pacman Package Manager
-
-```shell 
-sudo pacman -S dialog 
-```
+> The Smith-Pad-OS-Installation-Script can only currently be cloned using `git`. In the future, it will be possible to run the script without having to download or clone the repository.
 
 ```shell
 sudo pacman -S git 
 ```
 
-
-```shell
-## Step 1
-git clone https://aur.archlinux.org/yay-bin
-
-## Step 2
-cd yay-bin
-
-
-## Step 3
-makepkg -si
-```
-
-
-
 # How to run the Installer
 
-> Installing Smith-Pad-OS components requires you to chroot into your
-> existing or newly installed system. Please follow these commands here
+> It's simple as 123 to install Smith-Pad-OS components. You can run the Smith-Pad-OS-Installation-Script using one of two methods. In the future, it will be possible to run the script without having to download or clone the repository using `git`.
+
+1. `chroot`
+
+2. `sudo su` into `root`
+
+# `Chroot` `Method`
 
 ```shell
 ## This lists out the storage drives that you have in your system
 fdisk -l 
 ```
 
-##### Note: The volume drives may be different depending on your configuration
-##### Just make sure you first type in `fdisk -l`
+**Note: The volume drives may be different depending on your configuration Just make sure you first type in `fdisk -l`**
 
 ```shell
 ## Step 1
@@ -91,6 +76,4 @@ cd Smith-Pad-OS-Installation-Script
 
 ## Step 9
 sh install.sh
-
-
 ```
