@@ -297,21 +297,13 @@ while :
 
 
 			###############################################################
-                        ## 	Inform the user with steps to manually reboot system
+                        ## 	Reboot the system, after the apps/dependencies are 
+                        ##      installed into the system.
                         ###############################################################
 
                         
                         echo """        
-                        ##########################################################
-                        #               Steps to reboot your system
-                        #               (CHROOT ENVIRONMENT)
-                        #
-                        #
-                        #       1) exit | Description: Exit the chroot environment
-                        #       2) reboot | Description: Reboots the system
-                        ##########################################################
-
-                        """
+                        reboot
 			;;
 
 
