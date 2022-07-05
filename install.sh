@@ -314,14 +314,23 @@ while :
                         """
 			;;
 
-		###################################################################
-		## 	After the user chooses no, then it will not install the 
-		## 	dependencies and components for running Smith-Pad-OS
-                ## 	on other Arch Based Distributions. The program 
-                ## 	will quit. 
-		###################################################################
+
+
+
+
+
+
+		#########################################################
+		## After the user chooses no, then it will not install the 
+		## dependencies and components for running Smith-Pad-OS
+                ## on other Arch Based Distributions and exits the program.
+		#########################################################
+
 		
-		no)
+		no)	#################################################################
+			##			Exit the program
+			#################################################################
+
 			exit
 			;;
 esac
