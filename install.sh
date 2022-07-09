@@ -87,31 +87,6 @@ while :
 
 
 
-
-                        #########################################################
-			#	Install the standard packages
-			#
-			#########################################################
-                        sudo pacman -S --needed < standard-packages.txt
-
-
-
-                        #########################################################
-			#	Uninstall the specified packages
-			#	that is not needed
-			#########################################################			
-                        sudo pacman -S --no-confirm --needed - < deleted-packages.txt
-                        
-
-
-                        #########################################################
-			#	Install the specified packages
-                        #	
-			#########################################################
-                        sudo pacman -S --no-confirm --needed < specified-packages.txt
-
-
-
 			################################################
                         ## 	Enable SDDM using systemctl 
 			################################################
