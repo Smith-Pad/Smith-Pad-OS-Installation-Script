@@ -85,7 +85,7 @@ while :
                         
                         sudo pacman -Syyu
 
-                        
+
 
 
                         #########################################################
@@ -121,31 +121,6 @@ while :
 
 			
                         cd /usr/share/plasma/look-and-feel/
-
-
-
-
-
-
-			############################################################################
-                        ## 	Prevent conflicts before cloning the Smith-Pad-KDE-Theme repository
-                        ## 	via Git.
-			############################################################################
-
-			
-                        rm -rf Smith-Pad-OS-KDE-Theme
-
-
-
-
-
-			###############################################################
-                        ## 	Clone the Smith-Pad-OS-KDE-Theme Repository from Git
-			###############################################################
-
-			
-                        git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
-
 
 
 
