@@ -85,14 +85,14 @@ while :
                         
                         sudo pacman -Syyu
 
-
+                        
 
 
                         #########################################################
 			#	Install the standard packages
 			#
 			#########################################################
-                        pacman -Sup --noconfirm > standard-packages.txt
+                        sudo pacman -S --needed - < standard-packages.txt
 
 
 
@@ -100,7 +100,7 @@ while :
 			#	Uninstall the specified packages
 			#	that is not needed
 			#########################################################			
-                        pacman -Sup --noconfirm > delete-packages.txt
+                        sudo pacman -S --needed - < deleted-packages.txt
                         
 
 
@@ -108,7 +108,7 @@ while :
 			#	Install the specified packages
                         #	
 			#########################################################
-                        pacman -Sup --no-confirm > specified-packages.txt
+                        sudo pacman -S --needed - < specified-packages.txt
 
 
 
