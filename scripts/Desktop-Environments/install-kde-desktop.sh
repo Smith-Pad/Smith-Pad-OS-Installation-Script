@@ -23,7 +23,6 @@ function dependencies() {
 	pacman -S --noconfirm kscreenlocker
 	pacman -S --noconfirm libkscreen
 	pacman -S --noconfirm plasma-integration
-	pacman -S --noconfirm 
 }
 
 
@@ -35,15 +34,18 @@ function productivity() {
 }
 
 function development() {
-	pacman -S --noconfirm gedit
+	pacman -S --noconfirm kate
 	pacman -S --noconfirm vscodium
-	pacman -S --noconfirm gnome-builder
 	pacman -S --noconfirm nodejs
 	pacman -S --noconfirm npm
 
 }
 
 
+function webBrowser() {
+	pacman -S --noconfirm google-chrome
+	pacman -S --noconfirm librewolf
+}
 
 
 function systemTools() {
@@ -62,4 +64,5 @@ function systemTools() {
 dependencies
 productivity
 development
+Web Browser
 systemTools

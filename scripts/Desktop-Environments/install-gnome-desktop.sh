@@ -28,6 +28,7 @@ function productivity() {
 	pacman -S --noconfirm nautilus
 	pacman -S --noconfirm gnome-calendar
 	pacman -S --noconfirm gnome-contacts
+	pacman -S --noconfirm marktext
 }
 
 function development() {
@@ -37,6 +38,12 @@ function development() {
 	pacman -S --noconfirm nodejs
 	pacman -S --noconfirm npm
 
+}
+
+
+function webBrowser() {
+	pacman -S --noconfirm google-chrome
+	pacman -S --noconfirm librewolf
 }
 
 
@@ -57,4 +64,5 @@ function systemTools() {
 dependencies
 productivity
 development
+Web Browser
 systemTools
