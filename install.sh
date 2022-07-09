@@ -92,7 +92,7 @@ while :
 			#	Install the standard packages
 			#
 			#########################################################
-                        sudo pacman -S --needed --noconfirm - < standard-packages.txt
+                        sudo pacman -S --needed < standard-packages.txt
 
 
 
@@ -100,7 +100,7 @@ while :
 			#	Uninstall the specified packages
 			#	that is not needed
 			#########################################################			
-                        sudo pacman -S --no-confirm --needed --noconfirm - < deleted-packages.txt
+                        sudo pacman -S --no-confirm --needed - < deleted-packages.txt
                         
 
 
@@ -108,7 +108,7 @@ while :
 			#	Install the specified packages
                         #	
 			#########################################################
-                        sudo pacman -S --no-confirm --needed --noconfirm - < specified-packages.txt
+                        sudo pacman -S --no-confirm --needed < specified-packages.txt
 
 
 
