@@ -112,19 +112,6 @@ while :
 
 
 
-
-			###########################################################
-                        ## Change directory to  ../usr/share/plasma/look-and-feel/
-                        ## before cloning the Smith-Pad-KDE-Theme repository 
-                        ## via Git. 
-			##########################################################
-
-			
-                        cd /usr/share/plasma/look-and-feel/
-
-
-
-
 			################################################
                         ## 	Enable SDDM using systemctl 
 			################################################
