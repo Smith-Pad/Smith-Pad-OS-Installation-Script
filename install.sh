@@ -219,7 +219,7 @@ while :
 			sudo pacman -Rcns --noconfirm xfce4
 			sudo pacman -Rcns --noconfirm latte-dock
 			sudo pacman -Rcns --noconfirm vim
-
+			sudo pacman -Rcns --noconfirm discover
 
 
                         #########################################################
