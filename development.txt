@@ -1,4 +1,0 @@
-vscodium
-nodejs
-micro 
-git
