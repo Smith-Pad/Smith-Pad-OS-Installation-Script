@@ -331,4 +331,5 @@ done
 }
 
 introduction
+requiredPackages
 confirmation
