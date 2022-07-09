@@ -85,15 +85,7 @@ while :
                         
                         sudo pacman -Syyu
 
-
-
-			################################################
-                        ## 	Enable SDDM using systemctl 
-			################################################
-                        sudo systemctl enable sddm
-
-
-
+                        
 
 			###############################################################
                         ## 	Reboot the system, after the apps/dependencies are 
