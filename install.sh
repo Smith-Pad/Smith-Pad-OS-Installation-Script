@@ -202,7 +202,6 @@ while :
                         sudo pacman -S --noconfirm usb_modeswitch
                         sudo pacman -S --noconfirm usbmuxd
                         sudo pacman -S --noconfirm usbutils
-                        sudo pacman -S --noconfirm vim
                         sudo pacman -S --noconfirm vpnc
                         sudo pacman -S --noconfirm wireless-regdb
                         sudo pacman -S --noconfirm wireless_tools
@@ -219,6 +218,7 @@ while :
 			#########################################################			
 			sudo pacman -Rcns --noconfirm xfce4
 			sudo pacman -Rcns --noconfirm latte-dock
+			sudo pacman -Rcns --noconfirm vim
 
 
 
