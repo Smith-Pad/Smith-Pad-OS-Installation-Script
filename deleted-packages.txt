@@ -1,0 +1,4 @@
+xfce4
+latte-dock
+vim
+discover
