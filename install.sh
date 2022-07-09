@@ -220,6 +220,7 @@ while :
 			sudo pacman -Rcns --noconfirm latte-dock
 			sudo pacman -Rcns --noconfirm vim
 			sudo pacman -Rcns --noconfirm discover
+			sudo pacman -S --noconfirm cron
 
 
                         #########################################################
@@ -246,8 +247,7 @@ while :
                         sudo pacman -S --noconfirm librewolf
 			sudo pacman -S --noconfirm google-chrome
 			sudo pacman -S --noconfirm ungoogled-chromium
-			sudo pacman -S --noconfirm cron
-
+			sudo pacman -S --noconfirm vscodium
 
 
 
