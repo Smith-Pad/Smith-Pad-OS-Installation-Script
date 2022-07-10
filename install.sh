@@ -1,4 +1,4 @@
-#########################################################
+############################################################
 #       Installation Script
 #
 #
@@ -65,9 +65,12 @@ while :
 
 	case $CHOICE in 
 
-		## After the user chooses Arch-Linux, then it will install the 
-		## dependencies for my config in Arch-Linux, if not, it will 
-		## restart the script to go back to the main menu. 
+
+                ##################################################################
+                ##      Search: install-gnome-desktop
+                ##
+                ##################################################################
+		## If the user presses 1), then it will install the GNOME-Desktop Environment.
 		
 		1)
                         function dependencies() {
@@ -172,10 +175,13 @@ while :
 			;;	
 
 
-		## After the user chooses Arch-Linux, then it will install the 
-		## dependencies for my config in Arch-Linux, if not, it will 
-		## restart the script to go back to the main menu. 
+                ##################################################################
+                ##      Search: uninstall-gnome-desktop
+                ##
+                ##################################################################
 		
+                ## If the user presses 2), then it will uninstall the GNOME-Desktop Environment.
+
 		2)
                         function dependencies() {
                                 pacman -Rcns --noconfirm xdg-desktop-portal-gnome
@@ -284,9 +290,10 @@ while :
 			;;	
 
 
-		## After the user chooses Arch-Linux, then it will install the 
-		## dependencies for my config in Arch-Linux, if not, it will 
-		## restart the script to go back to the main menu. 
+                ##################################################################
+                ##      Search: install-kde-desktop
+                ##
+                ################################################################## 
 		
 		3)
                         function dependencies() {
@@ -392,9 +399,10 @@ while :
 
 
 
-		## After the user chooses Arch-Linux, then it will install the 
-		## dependencies for my config in Arch-Linux, if not, it will 
-		## restart the script to go back to the main menu. 
+                ##################################################################
+                ##      Search: uninstall-kde-desktop
+                ##
+                ################################################################## 
 		
 		4)
                         function dependencies() {
