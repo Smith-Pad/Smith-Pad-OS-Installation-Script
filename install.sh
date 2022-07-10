@@ -126,6 +126,13 @@ while :
                         }
 
 
+                        function enableServices() {
+                                systemctl enable gdm
+                                systemctl start gdm
+                        }
+
+
+
                         function repeatMenu() {
                                 clear
                                 echo """
@@ -171,6 +178,7 @@ while :
                         development
                         webBrowser
                         systemTools
+                        enableServices
                         repeatMenu
 			;;	
 
@@ -183,6 +191,12 @@ while :
                 ## If the user presses 2), then it will uninstall the GNOME-Desktop Environment.
 
 		2)
+                        function disableServices() {
+                                systemctl stop gdm
+                                systemctl disable gdm
+                        }
+
+
                         function dependencies() {
                                 pacman -Rcns --noconfirm xdg-desktop-portal-gnome
                                 pacman -Rcns --noconfirm gdm
@@ -238,6 +252,7 @@ while :
 
 
 
+
                         function repeatMenu() {
                                 clear
                                 echo """
@@ -286,6 +301,7 @@ while :
                         development
                         webBrowser
                         systemTools
+                        enableServices
                         repeatMenu
 			;;	
 
