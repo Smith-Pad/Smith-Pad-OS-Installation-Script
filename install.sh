@@ -157,7 +157,6 @@ while :
 
                         function enableServices() {
                                 systemctl enable gdm
-                                systemctl start gdm
                         }
 
 
