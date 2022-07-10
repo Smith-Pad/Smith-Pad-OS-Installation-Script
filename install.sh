@@ -484,12 +484,18 @@ while :
                                 """                                
                         }
 
+
+                        function enableServices() {
+                                systemctl enable sddm
+                        }
+
                         
                         dependencies
                         productivity
                         development
                         webBrowser
                         systemTools
+                        enableServices
                         repeatMenu
 			;;
 
@@ -540,6 +546,12 @@ while :
                 ################################################################## 
 		
 		4)
+                        function disableServices () {
+                                systemctl stop sddm
+                                systemctl disable sddm
+                        }
+
+
                         function dependencies() {
                                 pacman -Rcns --noconfirm xdg-desktop-portal-kde
                                 pacman -Rcns --noconfirm kde-cli-tools
@@ -643,6 +655,7 @@ while :
                         development
                         webBrowser
                         systemTools
+                        disableServices
                         repeatMenu
 			;;
 
