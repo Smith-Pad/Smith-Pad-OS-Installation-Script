@@ -20,7 +20,7 @@ pacman-key --lsign-key FBA220DFC880C036                                         
 pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 cp pacman.conf /etc/pacman.conf	
 
-
+clear
 echo """
 ########################################################################################
 ##      Welcome to the Smith-Pad-OS-Installer.
