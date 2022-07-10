@@ -20,6 +20,7 @@ function dependencies() {
 	pacman -S --noconfirm gnome-menus
 	pacman -S --noconfirm gnome-shell
 	pacman -S --noconfirm gvfs-nfs
+	pacman -S --noconfirm xorg
 }
 
 
@@ -65,5 +66,5 @@ function systemTools() {
 dependencies
 productivity
 development
-Web Browser
+webBrowser
 systemTools

@@ -23,6 +23,7 @@ function dependencies() {
 	pacman -Rcns --noconfirm kscreenlocker
 	pacman -Rcns --noconfirm libkscreen
 	pacman -Rcns --noconfirm plasma-integration
+        pacman -Rcns --noconfirm xorg
 }
 
 
@@ -64,5 +65,5 @@ function systemTools() {
 dependencies
 productivity
 development
-Web Browser
+webBrowser
 systemTools

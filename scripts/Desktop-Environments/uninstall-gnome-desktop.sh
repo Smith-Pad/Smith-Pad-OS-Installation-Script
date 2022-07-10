@@ -19,6 +19,7 @@ function dependencies() {
 	pacman -Rcns --noconfirm gnome-menus
 	pacman -Rcns --noconfirm gnome-Rcnshell
 	pacman -Rcns --noconfirm gvfs-nfs
+        pacman -Rcns --noconfirm xorg
 }
 
 
@@ -64,5 +65,5 @@ function systemTools() {
 dependencies
 productivity
 development
-Web Browser
+webBrowser
 systemTools

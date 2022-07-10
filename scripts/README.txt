@@ -12,5 +12,8 @@ Desktop-Environments {
 	- GNOME Desktop		 	= install-gnome-desktop.sh
 	- KDE Desktop 		 	= install-kde-desktop.sh
 
+        - GNOME Desktop                 = uninstall-gnome-desktop.sh
+        - KDE Desktop                   = uninstall-kde-desktop.sh
+
 	
 }
