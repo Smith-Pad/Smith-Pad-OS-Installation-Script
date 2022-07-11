@@ -32,17 +32,17 @@ function getMirror() {
 	##
 	########################################################################
 
-	pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com                                                                                         && \
-	pacman-key --lsign-key FBA220DFC880C036                                                                                                                         && \
-	pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+	pacman-key --noconfirm --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com                                                                                         && \
+	pacman-key --noconfirm --lsign-key FBA220DFC880C036                                                                                                                         && \
+	pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 	cp pacman.conf /etc/pacman.conf
-	pacman -Sy
+	pacman -Sy --noconfirm
 
 }
 
 
 function introduction() {
-        clear
+	clear
 	echo """
 	########################################################################################
 	##      Welcome to the Smith-Pad-OS-Installer.                                         #
@@ -56,7 +56,7 @@ function introduction() {
 	########################################################################################
 	##      Options                                                                        #
 	##                                                                                     #
-        ##      To get the options, please type `options`                                      #
+        ##      To get the options, please type `options`                                      
 	########################################################################################
 
 
@@ -73,8 +73,10 @@ function introduction() {
 	##
 	##	Type 'exit' to exit the program
 	########################################################################################
-        """                                
+	"""
+
 }
+
 
 
 function getChoices() {
@@ -90,9 +92,9 @@ function getChoices() {
 			##################################################################
 			## If the user types options, then it display the list of options
 
-#			options)
-#				sh options.sh
-#				;;
+			options)
+				sh options.sh
+				;;
 
 
 
