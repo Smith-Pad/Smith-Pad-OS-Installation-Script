@@ -3,10 +3,10 @@
 ##
 ##
 ##
-##		Uninstalls the GNOME-Desktop environment with other apps and 
+##		Uninstalls the GNOME-Desktop environment with other apps and
 ##		dependencies.
 ##
-##		
+##
 #####################################################################################
 
 
