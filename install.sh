@@ -112,7 +112,7 @@ function getChoices() {
 
 			options)
 				less Docs/Options
-
+                                sh install.sh
 				;;
 
 
