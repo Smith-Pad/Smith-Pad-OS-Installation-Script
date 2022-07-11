@@ -111,8 +111,7 @@ function getChoices() {
 			## If the user types options, then it display the list of options
 
 			options)
-				less Docs/Options
-                                sh install.sh
+				sh options.sh
 				;;
 
 
