@@ -110,7 +110,7 @@ while :
 		## If the user presses 1), then it will install the GNOME-Desktop Environment.
 		
 		1)
-
+                        sh install-gnome-desktop.sh
                                 
 			;;	
 
@@ -144,6 +144,8 @@ while :
 
 		2)
 
+                        sh uninstall-gnome.desktop.sh
+
 			;;	
 
 
@@ -175,6 +177,7 @@ while :
 		
 		3)
 
+                        sh install-kde-desktop
 			;;
 
 
@@ -215,6 +218,7 @@ while :
                 ################################################################## 
 		
 		4)
+                        sh uninstall-kde-desktop.sh
                 
 			;;
 
