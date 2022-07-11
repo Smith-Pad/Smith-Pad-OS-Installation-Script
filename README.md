@@ -12,6 +12,20 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 * yay
 
+# List of Desktop Environments
+
+##### GNOME-Desktop
+
+* `install-gnome-desktop.sh`    
+
+* `uninstall-gnome-desktop.sh`
+
+#### KDE-Desktop
+
+* `install-kde-desktop.sh`
+
+* `uninstall-kde-desktop.sh`
+
 ## Installing the required dependencies via Pacman Package Manager
 
 > The Smith-Pad-OS-Installation-Script can only currently be cloned using `git`. In the future, it will be possible to run the script without having to download or clone the repository.
@@ -78,8 +92,6 @@ cd Smith-Pad-OS-Installation-Script
 sh install.sh
 ```
 
-
-
 # `sudo su` `method`
 
 ```shell
@@ -87,14 +99,10 @@ sh install.sh
 sudo su
 ```
 
-
-
 ```shell
 ## Type this command cd to go back to the root's default directory
 cd
 ```
-
-
 
 ```shell
 ## Type this command to clone the Smith-Pad-OS-Installation-Script
@@ -104,8 +112,6 @@ cd
 git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installation-Script
 ```
 
-
-
 ```shell
 ## Type this command to go to the Smith-Pad-OS-Installation-Script that
 ## you just cloned (from the previous step)
@@ -113,8 +119,6 @@ git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installation-Script
 
 cd Smith-Pad-OS-Installation-Script
 ```
-
-
 
 ```shell
 ## Type this command to run the Smith-Pad-OS-Installation-Script 

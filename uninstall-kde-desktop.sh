@@ -55,15 +55,6 @@ function webBrowser() {
 
 function systemTools() {
         pacman -Rcns --noconfirm konsole
-        pacman -Rcns --noconfirm gnome-disk-utility
-        pacman -Rcns --noconfirm gnome-font-viewer
-        pacman -Rcns --noconfirm gnome-control-center
-        pacman -Rcns --noconfirm gnome-remote-desktop
-        pacman -Rcns --noconfirm gnome-logs
-        pacman -Rcns --noconfirm gnome-Rcnsoftware
-        pacman -Rcns --noconfirm gnome-Rcnsystem-monitor
-        pacman -Rcns --noconfirm gnome-font-viewer
-        pacman -Rcns --noconfirm gnome-characters
 }
 
 
@@ -71,8 +62,36 @@ function systemTools() {
 
 function repeatMenu() {
         clear
-        echo """
+	echo """
+	########################################################################################
+	##      Welcome to the Smith-Pad-OS-Installer.                                         #
+	########################################################################################
 
+	########################################################################################
+	##      WARNING: This script may be unstable at the moment. Please make sure you       #
+	##               backup your system before running this script.                        #
+	########################################################################################
+
+	########################################################################################
+	##      Options                                                                        #
+	##                                                                                     #
+        ##      To get the options, please type `options`                                      #
+	########################################################################################
+
+
+	########################################################################################
+	##      3) Install KDE-Desktop                                                         #
+	##                                                                                     #
+	##      4) Uninstall KDE-Desktop                                                       #
+	########################################################################################
+
+
+	########################################################################################
+	##	Exiting the program
+	##
+	##
+	##	Type 'exit' to exit the program
+	########################################################################################
         """                                
 }
 
