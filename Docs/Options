@@ -2,6 +2,10 @@ Options
 
 Desktop Environments:
 
-* GNOME-Desktop 		= 		sh install-gnome-desktop.sh
+==============================  	|               ============================
+	Name:							Command:
+==============================		       		=============================
 
-* KDE-Desktop			=		sh install-kde-desktop.sh
+* GNOME-Desktop 			= 		sh install-gnome-desktop.sh
+
+* KDE-Desktop				=		sh install-kde-desktop.sh
