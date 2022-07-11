@@ -290,6 +290,7 @@ function getChoices() {
 			## After the user types 'exit', it will exit the program
 
 			exit)
+                                clear
 				exit
 				;;
 
