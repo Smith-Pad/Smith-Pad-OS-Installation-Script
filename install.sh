@@ -90,9 +90,9 @@ function getChoices() {
 			##################################################################
 			## If the user types options, then it display the list of options
 
-			options)
-				sh options.sh
-				;;
+#			options)
+#				sh options.sh
+#				;;
 
 
 
