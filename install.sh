@@ -41,7 +41,7 @@ function getMirror() {
 }
 
 
-function introduction() {
+
 	clear
         echo """
  	########################################################################################
@@ -74,8 +74,6 @@ function introduction() {
 	##	Type 'exit' to exit the program
 	########################################################################################
         """
-
-}
 
 
 
@@ -293,5 +291,4 @@ function getChoices() {
 
 
 getMirror
-introduction
 getChoices
