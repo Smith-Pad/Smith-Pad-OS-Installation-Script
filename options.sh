@@ -6,13 +6,14 @@
 
 
 function getDocs() {
+        clear
 	less Docs/Options
 
 }
 
 
 function repeatMenu() {
-
+        clear
         echo """
 	########################################################################################
 	##      Welcome to the Smith-Pad-OS-Installer.                                         #
