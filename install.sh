@@ -173,7 +173,7 @@ function getChoices() {
 
 			2)
 
-				sh uninstall-gnome.desktop.sh
+				sh uninstall-gnome-desktop.sh
 
 				;;
 

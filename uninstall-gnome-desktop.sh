@@ -30,6 +30,7 @@ function productivity() {
         pacman -Rcns --noconfirm gnome-calendar
         pacman -Rcns --noconfirm gnome-contacts
         pacman -Rcns --noconfirm marktext
+        pacman -Rcns --noconfirm libreoffice
 }
 
 function development() {
