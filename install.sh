@@ -206,7 +206,7 @@ function getChoices() {
 
 			3)
 
-				sh install-kde-desktop
+				sh install-kde-desktop.sh
 				;;
 
 
