@@ -6,7 +6,7 @@
 
 
 function getDocs() {
-	less Docs/options
+	less Docs/Options
 
 }
 
