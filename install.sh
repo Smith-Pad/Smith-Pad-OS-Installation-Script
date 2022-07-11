@@ -32,11 +32,11 @@ function getMirror() {
 	##
 	########################################################################
 
-	pacman-key --noconfirm --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com                                                                                         && \
-	pacman-key --noconfirm --lsign-key FBA220DFC880C036                                                                                                                         && \
-	pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+	pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com                                                                                         && \
+	pacman-key --lsign-key FBA220DFC880C036                                                                                                                         && \
+	pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 	cp pacman.conf /etc/pacman.conf
-	pacman -Sy --noconfirm
+	pacman -Sy
 
 }
 
@@ -56,7 +56,12 @@ function introduction() {
 	########################################################################################
 	##      Options                                                                        #
 	##                                                                                     #
-        ##      To get the options, please type `options`                                      
+	########################################################################################
+
+	########################################################################################
+	##      1) Install GNOME-Desktop                                                       #
+	##                                                                                     #
+	##      2) Uninstall GNOME-Desktop                                                     #
 	########################################################################################
 
 
@@ -85,6 +90,19 @@ function getChoices() {
 		read CHOICE
 
 		case $CHOICE in
+
+
+	#	▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+	#	▼▼▼▼▼▼▼▼▼▼▲▼▼▼▼▼▼▼▼▼▼    ▲▲▼     ▼▲      ▲▲▲▲▲▲▼▲▲►  ▼▲▲▲▲▲▲▲▲       ▲             ▼▼z▲                 ▼▼z▲
+	#	          ▲              ◄▲▼▼    ◄►     ▲▼▼▼▼▼► ▼▼   ▼▼▼▼▲▼▼▼▼      ▼▲z            ◄►z▼                 ◄►z▼
+	#	          ▼              ◄▼▲▼▼   ◄►     ▲►    ▼         ◄▼►        ▼▲zz▼           ◄►z▼                 ◄►z▼
+	#	          ▼              ◄▼▼▲▼▼  ◄►      ◄▲▲▼           ◄▲►       ▼▼zzzz▲          ◄►z▼                 ◄►z▼
+	#	          ▼              ◄▼▼▼▲▼▼ ◄►      ▼▼▲▼▲▲▲        ◄▲►       ▼zz  z▼▼         ◄►z▼                 ◄►z▼
+	#	          ▼              ◄► ▼▼▲▼▲▼►        ▼▼▼▼▼▲▲      ◄▲►      ▼▼z◄◄►zz▼▼        ◄►z◄►                ◄►z◄►
+	#	          ▼              ◄►  ▼► ◄▼►            ◄▼►      ◄▲►      ▼zzzzzzzz▼        ◄►z►▼◄◄►▲▲►          ◄►z►▼◄◄►▲▲►
+	#	  ▼▲▲▲▲▲▲▲▼▲▲▲▲▲▲▲▼      ◄►   ▼▼▼▲►     ▲▲▲▲▲▲▲▼▼▲      ◄▲►     ▲zz▼     z▼▼       ◄►zzzzzz►►zz▲        ◄►zzzzzz►►zz▲
+	#	  ▲▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▲      ▲▼     ▼▼▲     ▲▼▼▼▼▼▼▼▲       ▼▼▼     ▼z       zz▼       ►▼◄◄◄◄►zzzz◄▼►       ►▼◄◄◄◄►zzzz◄▼►
+
 
 			##################################################################
 			##      Search: options
@@ -272,7 +290,6 @@ function getChoices() {
 			## After the user types 'exit', it will exit the program
 
 			exit)
-                                clear
 				exit
 				;;
 
