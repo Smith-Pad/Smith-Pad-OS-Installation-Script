@@ -1,71 +1,26 @@
-
 #####################################################################################
-##			install-gnome-desktop.sh
+##			install-specified-apps.sh
 ##
 ##
 ##
-##		Installs the GNOME-Desktop environment with other apps and 
-##		dependencies.
+##		      Installs specified applications
 ##
 ##		
 #####################################################################################
 
-function dependencies() {
-        pacman -S --noconfirm xdg-desktop-portal-gnome
-        pacman -S --noconfirm gdm
-        pacman -S --noconfirm gnome-session
-        pacman -S --noconfirm gnome-backgrounds
-        pacman -S --noconfirm gnome-settings-daemon
-        pacman -S --noconfirm gnome-menus
-        pacman -S --noconfirm gnome-shell
-        pacman -S --noconfirm gvfs-nfs
-        pacman -S --noconfirm xorg
-}
-
-
-
 function productivity() {
-        pacman -S --noconfirm gnome-books
-        pacman -S --noconfirm nautilus
-        pacman -S --noconfirm gnome-calendar
-        pacman -S --noconfirm gnome-contacts
-        pacman -S --noconfirm marktext
 }
 
 function development() {
-        pacman -S --noconfirm gedit
-        pacman -S --noconfirm vscodium
-        pacman -S --noconfirm gnome-builder
-        pacman -S --noconfirm nodejs
-        pacman -S --noconfirm npm
-
 }
 
 
 function webBrowser() {
-        pacman -S --noconfirm google-chrome
-        pacman -S --noconfirm librewolf
 }
 
 
 function systemTools() {
-        pacman -S --noconfirm gnome-terminal
-        pacman -S --noconfirm gnome-disk-utility
-        pacman -S --noconfirm gnome-font-viewer
-        pacman -S --noconfirm gnome-control-center
-        pacman -S --noconfirm gnome-remote-desktop
-        pacman -S --noconfirm gnome-logs
-        pacman -S --noconfirm gnome-software
-        pacman -S --noconfirm gnome-system-monitor
-        pacman -S --noconfirm gnome-font-viewer
-        pacman -S --noconfirm gnome-characters
 }
-
-
-function enableServices() {
-        systemctl enable gdm
-}
-
 
 function repeatMenu() {
         clear
@@ -99,13 +54,13 @@ function repeatMenu() {
 	##
 	##	Type 'exit' to exit the program
 	########################################################################################
-        """                            
+        """                                
 }
 
- dependencies
- productivity
- development
- webBrowser
- systemTools
- enableServices
- repeatMenu
+                        
+
+productivity
+development
+webBrowser
+systemTools
+repeatMenu
