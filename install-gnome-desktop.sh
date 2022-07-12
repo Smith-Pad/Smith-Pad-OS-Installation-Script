@@ -37,8 +37,6 @@ function development() {
         pacman -S --noconfirm gedit
         pacman -S --noconfirm vscodium
         pacman -S --noconfirm gnome-builder
-        pacman -S --noconfirm nodejs
-        pacman -S --noconfirm npm
 
 }
 
@@ -60,6 +58,8 @@ function systemTools() {
         pacman -S --noconfirm gnome-system-monitor
         pacman -S --noconfirm gnome-font-viewer
         pacman -S --noconfirm gnome-characters
+        pacman -S --noconfirm nodejs
+        pacman -S --noconfirm npm
 }
 
 

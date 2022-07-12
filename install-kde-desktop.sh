@@ -32,6 +32,7 @@ function productivity() {
         pacman -S --noconfirm dolphin
         pacman -S --noconfirm kalendar
         pacman -S --noconfirm marktext
+        pacman -S --noconfirm libreoffice
 }
 
 function development() {

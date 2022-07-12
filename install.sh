@@ -47,13 +47,6 @@ function introduction() {
 
 
 	########################################################################################
-	##      3) Install KDE-Desktop                                                         #
-	##                                                                                     #
-	##      4) Uninstall KDE-Desktop                                                       #
-	########################################################################################
-
-
-	########################################################################################
 	##	Exiting the program
 	##
 	##
@@ -125,6 +118,18 @@ function getChoices() {
 
 			4)
 				sh uninstall-kde-desktop.sh
+
+				;;
+
+			##################################################################
+			##      Search: install-specified-apps
+			##
+			##################################################################
+
+                        ## If the user presses 4), then it will uninstall the specified applications
+
+			5)
+				sh uninstall-specified-apps.sh
 
 				;;
 

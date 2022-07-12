@@ -9,13 +9,17 @@
 #####################################################################################
 
 function productivity() {
+        pacman -S --noconfirm marktext 
+        pacman -S --noconfirm libreoffice
 }
 
 function development() {
+        pacman -S --noconfirm vscodium
 }
 
 
 function webBrowser() {
+        pacman -S --noconfirm google-chrome
 }
 
 

@@ -9,3 +9,5 @@ Desktop Environments:
 * GNOME-Desktop 			= 		sh install-gnome-desktop.sh
 
 * KDE-Desktop				=		sh install-kde-desktop.sh
+
+* Specified apps                        =               sh install-specified-apps.sh
