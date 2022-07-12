@@ -10,8 +10,6 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 * git
 
-* 
-
 # List of Desktop Environments
 
 ##### GNOME-Desktop
