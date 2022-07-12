@@ -10,7 +10,7 @@ This repository is used to install Smith-Pad-OS components and dependencies on v
 
 * git
 
-* yay
+* 
 
 # List of Desktop Environments
 
