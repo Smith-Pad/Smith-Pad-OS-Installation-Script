@@ -58,6 +58,7 @@ function systemTools() {
 
 function enableServices() {
         systemctl enable sddm
+        systemctl start sddm
 }
 
 
