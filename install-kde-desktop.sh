@@ -24,6 +24,7 @@ function dependencies() {
         pacman -S --noconfirm libkscreen
         pacman -S --noconfirm plasma-integration
         pacman -S --noconfirm xorg
+        pacman -S --noconfirm sddm
 }
 
 
@@ -86,7 +87,8 @@ function repeatMenu() {
 
 
 function enableServices() {
-systemctl enable sddm
+        systemctl enable sddm
+        systemctl start sddm
 }
 
                         

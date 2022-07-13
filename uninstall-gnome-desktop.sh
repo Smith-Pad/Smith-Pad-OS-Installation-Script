@@ -1,9 +1,9 @@
 #####################################################################################
-##			install-gnome-desktop.sh
+##			uninstalls-gnome-desktop.sh
 ##
 ##
 ##
-##		Installs the GNOME-Desktop environment with other apps and 
+##		Uninstalls the GNOME-Desktop environment with other apps and 
 ##		dependencies.
 ##
 ##		
