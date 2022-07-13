@@ -1,75 +1,68 @@
 #####################################################################################
-##			install-gnome-desktop.sh
+##			install-lxqt-desktop.sh
 ##
 ##
 ##
-##		Installs the GNOME-Desktop environment with other apps and 
+##		Installs the LXQT-Desktop environment with other apps and 
 ##		dependencies.
 ##
 ##		
 #####################################################################################
 
 function dependencies() {
-        pacman -Rcns --noconfirm xdg-desktop-portal-gnome
-        pacman -Rcns --noconfirm gdm
-        pacman -Rcns --noconfirm gnome-Rcnsession
-        pacman -Rcns --noconfirm gnome-backgrounds
-        pacman -Rcns --noconfirm gnome-Rcnsettings-daemon
-        pacman -Rcns --noconfirm gnome-menus
-        pacman -Rcns --noconfirm gnome-Rcnshell
-        pacman -Rcns --noconfirm gvfs-nfs
-        pacman -Rcns --noconfirm xorg
+
+        pacman -S --noconfirm lxqt-session
+	pacman -S --noconfirm lxqt-runner
+	pacman -S --noconfirm lxqt-powermanagement
+	pacman -S --noconfirm lxqt-panel
+	pacman -S --noconfirm lxqt-sudo
+	pacman -S --noconfirm lxqt-policykit
+	pacman -S --noconfirm lxqt-admin
+	pacman -S --noconfirm lxqt-openssh-askpass
+	pacman -S --noconfirm lxqt-globalkeys
+	pacman -S --noconfirm lxqt-qtplugin
+	pacman -S --noconfirm lxqt-notificationd
+        pacman -S --noconfirm xorg
 }
 
 
 
 function productivity() {
-        pacman -Rcns --noconfirm gnome-books
-        pacman -Rcns --noconfirm nautilus
-        pacman -Rcns --noconfirm gnome-calendar
-        pacman -Rcns --noconfirm gnome-contacts
-        pacman -Rcns --noconfirm marktext
-        pacman -Rcns --noconfirm libreoffice
+	pacman -S --noconfirm pcmanfmqt
+        pacman -S --noconfirm marktext
+        pacman -S --noconfirm libreoffice
 }
 
 function development() {
-        pacman -Rcns --noconfirm gedit
-        pacman -Rcns --noconfirm vscodium
-        pacman -Rcns --noconfirm gnome-builder
-        pacman -Rcns --noconfirm nodejs
-        pacman -Rcns --noconfirm npm
+        pacman -S --noconfirm vscodium
 
 }
 
 
 function webBrowser() {
-        pacman -Rcns --noconfirm google-chrome
-        pacman -Rcns --noconfirm librewolf
+        pacman -S --noconfirm google-chrome
+        pacman -S --noconfirm librewolf
 }
 
 
 function systemTools() {
-        pacman -Rcns --noconfirm gnome-terminal
-        pacman -Rcns --noconfirm gnome-disk-utility
-        pacman -Rcns --noconfirm gnome-font-viewer
-        pacman -Rcns --noconfirm gnome-control-center
-        pacman -Rcns --noconfirm gnome-remote-desktop
-        pacman -Rcns --noconfirm gnome-logs
-        pacman -Rcns --noconfirm gnome-Rcnsoftware
-        pacman -Rcns --noconfirm gnome-Rcnsystem-monitor
-        pacman -Rcns --noconfirm gnome-font-viewer
-        pacman -Rcns --noconfirm gnome-characters
+	pacman -S --noconfirm qterminal
+	pacman -S --noconfirm lxqt-themes
+	pacman -S --noconfirm lxqt-config
+	pacman -S --noconfirm lxqt-archiver
+        pacman -S --noconfirm nodejs
+        pacman -S --noconfirm npm
 }
 
 
 function enableServices() {
-        systemctl enable gdm
+        systemctl enable sddm
 }
 
 
 function repeatMenu() {
         clear
-        echo """
+	echo """
 	########################################################################################
 	##      Welcome to the Smith-Pad-OS-Installer.                                         #
 	########################################################################################
@@ -95,7 +88,7 @@ function repeatMenu() {
 	##
 	##	Type 'exit' to exit the program
 	########################################################################################
-        """                                
+        """                            
 }
 
  dependencies

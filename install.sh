@@ -122,14 +122,26 @@ function getChoices() {
 				;;
 
 			##################################################################
-			##      Search: install-specified-apps
+			##      Search: install-lxqt-desktop
 			##
 			##################################################################
 
-                        ## If the user presses 4), then it will uninstall the specified applications
+                        ## If the user presses 4), then it will install the LXQT-Desktop-Environment
 
 			5)
-				sh uninstall-specified-apps.sh
+				sh install-lxqt-desktop.sh
+
+				;;
+
+			##################################################################
+			##      Search: uninstall-lxqt-desktop
+			##
+			##################################################################
+
+                        ## If the user presses 4), then it will uninstall the LXQT-Desktop-Environment
+
+			6)
+				sh uninstall-lxqt-desktop.sh
 
 				;;
 
