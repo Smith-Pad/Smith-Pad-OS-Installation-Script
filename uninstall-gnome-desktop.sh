@@ -9,6 +9,11 @@
 ##		
 #####################################################################################
 
+function enableServices() {
+        systemctl stop gdm
+        systemctl disable gdm
+}
+
 function dependencies() {
         pacman -Rcns --noconfirm xdg-desktop-portal-gnome
         pacman -Rcns --noconfirm gdm
@@ -59,11 +64,6 @@ function systemTools() {
         pacman -Rcns --noconfirm gnome-Rcnsystem-monitor
         pacman -Rcns --noconfirm gnome-font-viewer
         pacman -Rcns --noconfirm gnome-characters
-}
-
-
-function enableServices() {
-        systemctl enable gdm
 }
 
 

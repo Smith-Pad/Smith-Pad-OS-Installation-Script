@@ -9,8 +9,14 @@
 ##		
 #####################################################################################
 
+function enableServices() {
+        systemctl stop sddm
+        systemctl disable sddm
+}
+
 function dependencies() {
 
+        pacman -Rcns --noconfirm sddm
         pacman -Rcns --noconfirm lxqt-session
 	pacman -Rcns --noconfirm lxqt-runner
 	pacman -Rcns --noconfirm lxqt-powermanagement
@@ -52,11 +58,6 @@ function systemTools() {
 	pacman -Rcns --noconfirm lxqt-archiver
         pacman -Rcns --noconfirm nodejs
         pacman -Rcns --noconfirm npm
-}
-
-
-function enableServices() {
-        systemctl enable sddm
 }
 
 
