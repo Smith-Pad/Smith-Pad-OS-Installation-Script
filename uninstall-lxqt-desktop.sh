@@ -16,6 +16,7 @@ function enableServices() {
 
 function dependencies() {
 
+        pacman -Rcns --noconfirm kwin
         pacman -Rcns --noconfirm sddm
         pacman -Rcns --noconfirm lxqt-session
 	pacman -Rcns --noconfirm lxqt-runner

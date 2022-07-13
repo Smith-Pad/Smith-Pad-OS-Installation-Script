@@ -11,6 +11,7 @@
 
 function dependencies() {
 
+        pacman -S --noconfirm kwin
         pacman -S --noconfirm sddm
         pacman -S --noconfirm lxqt-session
 	pacman -S --noconfirm lxqt-runner
