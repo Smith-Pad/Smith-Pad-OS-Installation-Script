@@ -36,6 +36,7 @@ function dependencies() {
         pacman -Rcns --noconfirm python
         pacman -Rcns --noconfirm cinnamon-settings-daemon
         pacman -Rcns --noconfirm cinnamon-menus
+        pacman -Rcns --noconfirm cinnamon-session
         pacman -Rcns --noconfirm xapp
         pacman -Rcns --noconfirm xorg
 }
