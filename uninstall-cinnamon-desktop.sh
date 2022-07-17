@@ -10,12 +10,14 @@
 #####################################################################################
 
 function disableServices() {
-        echo "later on..."
+        systemctl stop gdm
+        systemctl disable gdm
 }
 
 function dependencies() {
         pacman -Rcns --noconfirm caribou
         pacman -Rcns --noconfirm gnome-backgrounds
+        pacman -Rcns --noconfirm gdm
         pacman -Rcns --noconfirm libcroco
         pacman -Rcns --noconfirm libkeybinder3
         pacman -Rcns --noconfirm muffin

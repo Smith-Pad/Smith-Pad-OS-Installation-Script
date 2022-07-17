@@ -12,6 +12,7 @@
 function dependencies() {
         pacman -S --noconfirm caribou
         pacman -S --noconfirm gnome-backgrounds
+        pacman -S --noconfirm gdm
         pacman -S --noconfirm libcroco
         pacman -S --noconfirm libkeybinder3
         pacman -S --noconfirm muffin
@@ -64,7 +65,8 @@ function systemTools() {
 
 
 function enableServices() {
-        echo "later on..."
+        systemctl enable gdm
+        systemctl start gdm
 }
 
 
