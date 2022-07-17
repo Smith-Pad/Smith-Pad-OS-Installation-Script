@@ -145,6 +145,30 @@ function getChoices() {
 
 				;;
 
+			##################################################################
+			##      Search: install-cinnamon-desktop
+			##
+			##################################################################
+
+                        ## If the user presses 4), then it will install the cinnamon desktop
+
+			7)
+				sh install-cinnamon-desktop.sh
+
+				;;
+
+			##################################################################
+			##      Search: uninstall-cinnamon-desktop
+			##
+			##################################################################
+
+                        ## If the user presses 4), then it will uninstall the cinnamon desktop
+
+			8)
+				sh uninstall-cinnamon-desktop.sh
+
+				;;
+
 
 
 
