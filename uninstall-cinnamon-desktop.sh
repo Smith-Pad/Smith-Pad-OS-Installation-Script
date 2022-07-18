@@ -66,6 +66,7 @@ function webBrowser() {
 function systemTools() {
         pacman -Rcns --noconfirm nodejs
         pacman -Rcns --noconfirm npm
+        pacman -Rcns --noconfirm electron
 
 }
 

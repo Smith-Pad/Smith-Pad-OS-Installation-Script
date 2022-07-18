@@ -64,6 +64,7 @@ function systemTools() {
         pacman -Rcns --noconfirm gnome-Rcnsystem-monitor
         pacman -Rcns --noconfirm gnome-font-viewer
         pacman -Rcns --noconfirm gnome-characters
+        pacman -Rcns --noconfirm electron
 }
 
 

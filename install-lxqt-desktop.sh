@@ -54,6 +54,7 @@ function systemTools() {
 	pacman -S --noconfirm lxqt-archiver
         pacman -S --noconfirm nodejs
         pacman -S --noconfirm npm
+        pacman -S --noconfirm electron
 }
 
 

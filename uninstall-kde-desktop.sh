@@ -55,6 +55,7 @@ function webBrowser() {
 
 function systemTools() {
         pacman -Rcns --noconfirm konsole
+        pacman -Rcns --noconfirm electron
 }
 
 

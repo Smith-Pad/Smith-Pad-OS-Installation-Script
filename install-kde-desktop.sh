@@ -52,6 +52,7 @@ function webBrowser() {
 
 function systemTools() {
         pacman -S --noconfirm konsole
+        pacman -S --noconfirm electron
 }
 
 function repeatMenu() {
