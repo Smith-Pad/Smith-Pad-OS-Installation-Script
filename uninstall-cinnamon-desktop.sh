@@ -70,12 +70,6 @@ function systemTools() {
 }
 
 
-function enableServices() {
-        systemctl enable gdm
-        systemctl start gdm
-}
-
-
 function repeatMenu() {
         clear
 	echo """
