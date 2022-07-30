@@ -55,6 +55,11 @@ function systemTools() {
         pacman -S --noconfirm electron
 }
 
+function configureTheme() {
+        cd /usr/share/plasma/look-and-feel
+        git clone https://github.com/Smith-Pad/Smith-Pad-OS-KDE-Theme
+}
+
 function repeatMenu() {
         clear
 	echo """
@@ -98,5 +103,6 @@ productivity
 development
 webBrowser
 systemTools
+configureTheme
 enableServices
 repeatMenu

@@ -58,7 +58,10 @@ function systemTools() {
         pacman -Rcns --noconfirm electron
 }
 
-
+function unconfigureTheme() {
+        cd /usr/share/plasma/look-and-feel
+        rm -rf Smith-Pad-OS-KDE-Theme
+}
 
 
 function repeatMenu() {
@@ -100,5 +103,6 @@ productivity
 development
 webBrowser
 systemTools
+unconfigureTheme
 disableServices
 repeatMenu

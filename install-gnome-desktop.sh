@@ -63,6 +63,12 @@ function systemTools() {
 }
 
 
+function configureTheme() {
+        cd /usr/share/themes
+        git clone https://github.com/Smith-Pad/Smith-Pad-OS-GTK-Theme
+}
+
+
 function enableServices() {
         systemctl enable gdm
         systemctl start gdm
@@ -105,5 +111,6 @@ function repeatMenu() {
  development
  webBrowser
  systemTools
+ configureTheme
  enableServices
  repeatMenu

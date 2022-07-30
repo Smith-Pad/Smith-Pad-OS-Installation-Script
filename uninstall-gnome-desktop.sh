@@ -68,6 +68,12 @@ function systemTools() {
 }
 
 
+function unconfigureTheme() {
+        cd /usr/share/themes
+        rm -rf Smith-Pad-OS-GTK-Theme
+}
+
+
 function repeatMenu() {
         clear
         echo """
@@ -104,5 +110,6 @@ function repeatMenu() {
  development
  webBrowser
  systemTools
+ unconfigureTheme
  enableServices
  repeatMenu
