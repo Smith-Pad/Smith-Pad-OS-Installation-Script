@@ -1,61 +1,65 @@
 #####################################################################################
-##			install-xfce4-desktop.sh
+##			uninstall-xfce4-desktop.sh
 ##
 ##
 ##
-##		Installs the xfce4-Desktop environment with other apps and 
+##		Uninstalls the xfce4-Desktop environment with other apps and 
 ##		dependencies.
 ##
 ##		
 #####################################################################################
 
 
+function disableServices () {
+        echo "Later on..."
+}
+
 function dependencies() {
-        pacman -S --noconfirm exo
-        pacman -S --noconfirm garcon
-        pacman -S --noconfirm xfwm4
-        pacman -S --noconfirm xfwm4-themes
-        pacman -S --noconfirm xfce4-appfinder
-        pacman -S --noconfirm xfce4-panel
-        pacman -S --noconfirm xfce4-session
-        pacman -S --noconfirm xfconf
-        pacman -S --noconfirm xfdesktop
-        pacman -S --noconfirm xfwm4 
-        pacman -S --noconfirm xorg
+        pacman -Rcns --no-confirm exo
+        pacman -Rcns --no-confirm garcon
+        pacman -Rcns --no-confirm xfwm4
+        pacman -Rcns --no-confirm xfwm4-themes
+        pacman -Rcns --no-confirm xfce4-appfinder
+        pacman -Rcns --no-confirm xfce4-panel
+        pacman -Rcns --no-confirm xfce4-session
+        pacman -Rcns --no-confirm xfconf
+        pacman -Rcns --no-confirm xfdesktop
+        pacman -Rcns --no-confirm xfwm4
+        pacman -Rcns --no-confirm xorg
 }
 
 
 
 function productivity() {
-        pacman -S --noconfirm thunar
-        pacman -S --noconfirm marktext
-        pacman -S --noconfirm libreoffice
+        pacman -Rcns --noconfirm thunar
+        pacman -Rcns --noconfirm marktext
+        pacman -Rcns --noconfirm libreoffice
 }
 
 function development() {
-        pacman -S --noconfirm vscodium
-        pacman -S --noconfirm nodejs
-        pacman -S --noconfirm npm
+        pacman -Rcns --noconfirm vscodium
+        pacman -Rcns --noconfirm nodejs
+        pacman -Rcns --noconfirm npm
 }
 
 
 function webBrowser() {
-        pacman -S --noconfirm google-chrome
-        pacman -S --noconfirm librewolf
+        pacman -Rcns --noconfirm google-chrome
+        pacman -Rcns --noconfirm librewolf
 }
 
 
 function systemTools() {
-        pacman -S --noconfirm electron
-        pacman -S --noconfirm xfce4-power-manager
-        pacman -S --noconfirm xfce4-settings
-
-
+        pacman -Rcns --noconfirm electron
+        pacman -Rcns --noconfirm xfce4=power-manager
+        pacman -Rcns --noconfirm xfce4=settings
 }
 
-function configureTheme() {
-        echo "Later on..."
+function unconfigureTheme() {
+        cd /usr/share/plasma/look-and-feel
+        rm -rf Smith-Pad-OS-KDE-Theme
 }
+
 
 function repeatMenu() {
         clear
@@ -84,21 +88,18 @@ function repeatMenu() {
 	##
 	##
 	##	Type 'exit' to exit the program
-	########################################################################################       
-	"""                                
+	########################################################################################
+        """                                
 }
 
-
-function enableServices() {
-	echo "later on..."
-}
 
                         
+
 dependencies
 productivity
 development
 webBrowser
 systemTools
-configureTheme
-enableServices
+unconfigureTheme
+disableServices
 repeatMenu
